@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskFrame", "DeskFrame\DeskFrame.csproj", "{EE72FB12-22AA-4712-ABFD-A4693A331B3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskFrameLib", "DeskFrameLib\DeskFrameLib.csproj", "{A5771B4A-74F9-4E81-9AA5-2B13BD5B4F8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EE72FB12-22AA-4712-ABFD-A4693A331B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE72FB12-22AA-4712-ABFD-A4693A331B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE72FB12-22AA-4712-ABFD-A4693A331B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5771B4A-74F9-4E81-9AA5-2B13BD5B4F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5771B4A-74F9-4E81-9AA5-2B13BD5B4F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5771B4A-74F9-4E81-9AA5-2B13BD5B4F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5771B4A-74F9-4E81-9AA5-2B13BD5B4F8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
