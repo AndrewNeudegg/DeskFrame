@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskFrame", "DeskFrame\DeskFrame.csproj", "{EE72FB12-22AA-4712-ABFD-A4693A331B3D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskFrameLib", "DeskFrameLib\DeskFrameLib.csproj", "{A5771B4A-74F9-4E81-9AA5-2B13BD5B4F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskFramePluginLoader", "DeskFramePluginLoader\DeskFramePluginLoader.csproj", "{94CAB3A9-7FEA-41D2-8AAA-C393816F84A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleFrames", "ExampleFrames\ExampleFrames.csproj", "{B7B6965F-886D-4EF8-B4BB-A8A8FE2236AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginTester", "PluginTester\PluginTester.csproj", "{954C7D92-111C-4365-9B69-F81B7BBA96AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +27,23 @@ Global
 		{A5771B4A-74F9-4E81-9AA5-2B13BD5B4F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5771B4A-74F9-4E81-9AA5-2B13BD5B4F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5771B4A-74F9-4E81-9AA5-2B13BD5B4F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94CAB3A9-7FEA-41D2-8AAA-C393816F84A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94CAB3A9-7FEA-41D2-8AAA-C393816F84A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94CAB3A9-7FEA-41D2-8AAA-C393816F84A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94CAB3A9-7FEA-41D2-8AAA-C393816F84A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7B6965F-886D-4EF8-B4BB-A8A8FE2236AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B6965F-886D-4EF8-B4BB-A8A8FE2236AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B6965F-886D-4EF8-B4BB-A8A8FE2236AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B6965F-886D-4EF8-B4BB-A8A8FE2236AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954C7D92-111C-4365-9B69-F81B7BBA96AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954C7D92-111C-4365-9B69-F81B7BBA96AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954C7D92-111C-4365-9B69-F81B7BBA96AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954C7D92-111C-4365-9B69-F81B7BBA96AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82A84009-0E30-46C7-890C-6364B89CBA6F}
 	EndGlobalSection
 EndGlobal

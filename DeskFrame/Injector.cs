@@ -1,5 +1,5 @@
 ﻿// An incredible note of thanks goes to the hard work done by Gerald Degeneve, found here: https://www.codeproject.com/articles/856020/draw-behind-desktop-icons-in-windows. 
-// While the author had detected SHELLDLL_DefView, they did not have the requisite skills to extract the *undocumented* '0x052C' Progman Win message.
+// While the author had detected SHELLDLL_DefView, they did not have the skills to extract the *undocumented* '0x052C' Progman Win message.
 
 
 using System;
@@ -31,7 +31,6 @@ namespace DeskFrame
             IntPtr workerw = GetWorkerw();
             // Assign our form as a child.
             Loadin(workerw, _activeForm);
-            _activeView.Init(_activeForm);
             _hasInjected = true;
         }
 
@@ -62,7 +61,6 @@ namespace DeskFrame
             if (_activeForm != null)
             {
                 // Permit advanced warning of close.
-                _activeView.CloseUp(_activeForm);
             }
 
             KillExplorerShell();

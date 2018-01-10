@@ -11,33 +11,21 @@ namespace DeskFrameLib
         /// <summary>
         /// Property represents the view to be injected.
         /// </summary>
-        Form view { get; set; }
+        Form view { get; }
 
         /// <summary>
         /// The unique identifier for this subclass.
         /// </summary>
-        string uid { get; set; }
+        string uid { get; }
 
         /// <summary>
         /// A end user friendly description for this frame.
         /// </summary>
-        string descriptor { get; set; }
+        string descriptor { get; }
 
         /// <summary>
         /// The author of this frame.
         /// </summary>
-        string author { get; set; }
-
-        /// <summary>
-        /// Is called before init.
-        /// </summary>
-        /// <returns></returns>
-        bool Init(Form activeForm);
-
-        /// <summary>
-        /// Is called before closing the form.
-        /// </summary>
-        /// <returns></returns>
-        bool CloseUp(Form activeForm);
+        string author { get; }
     }
 }

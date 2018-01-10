@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DeskFrameLib;
 
 namespace DeskFrame
 {
     class Program
     {
         static Injector _injector = null;
+        private static IDeskFrameView defualtView;
 
         /// <summary>
         /// Void Main: Entry point for the application.
@@ -17,11 +19,11 @@ namespace DeskFrame
         static void Main(string[] args)
         {
             // Hello World Introduction!
-            DefualtFrameView defualtView = new DefualtFrameView();
             Injector injector = new Injector(defualtView);
             _injector = injector;
-            injector.RunDeskFrame();
-            
+            injector.RunDeskFrame();            
         }
+
+        
     }
 }

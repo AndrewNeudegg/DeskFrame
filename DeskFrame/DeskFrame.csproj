@@ -44,13 +44,6 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Views\Defualt\DefualtFrameView.cs" />
-    <Compile Include="Views\Defualt\GenericView.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\Defualt\GenericView.Designer.cs">
-      <DependentUpon>GenericView.cs</DependentUpon>
-    </Compile>
     <Compile Include="Injector.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,9 +64,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\Defualt\GenericView.resx">
-      <DependentUpon>GenericView.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
