@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleFrames", "ExampleFra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginTester", "PluginTester\PluginTester.csproj", "{954C7D92-111C-4365-9B69-F81B7BBA96AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShaderWallpaper", "ShaderWallpaper\ShaderWallpaper.csproj", "{3B8D4A8A-ABB3-4A5F-AD5E-6518A762EC5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{954C7D92-111C-4365-9B69-F81B7BBA96AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{954C7D92-111C-4365-9B69-F81B7BBA96AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{954C7D92-111C-4365-9B69-F81B7BBA96AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B8D4A8A-ABB3-4A5F-AD5E-6518A762EC5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B8D4A8A-ABB3-4A5F-AD5E-6518A762EC5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B8D4A8A-ABB3-4A5F-AD5E-6518A762EC5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B8D4A8A-ABB3-4A5F-AD5E-6518A762EC5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

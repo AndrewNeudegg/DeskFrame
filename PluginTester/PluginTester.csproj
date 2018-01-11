@@ -62,6 +62,10 @@
       <Project>{b7b6965f-886d-4ef8-b4bb-a8a8fe2236af}</Project>
       <Name>ExampleFrames</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ShaderWallpaper\ShaderWallpaper.csproj">
+      <Project>{3b8d4a8a-abb3-4a5f-ad5e-6518a762ec5d}</Project>
+      <Name>ShaderWallpaper</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

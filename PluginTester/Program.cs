@@ -12,6 +12,7 @@ namespace PluginTester
 {
     class Program
     {
+        [STAThread]
         static void Main(string[] args)
         {
             // This is a demonstration application.
@@ -22,6 +23,9 @@ namespace PluginTester
             Console.WriteLine("Detected {0} plugins.", _plugins.Count);
             Console.WriteLine("Attempting to Load plugins sequentially.");
 
+            // Prepare Visual Styles
+            Application.EnableVisualStyles();
+
             // Loop over plugins.
             foreach (var plugin in _plugins)
             {
@@ -29,9 +33,12 @@ namespace PluginTester
                 Console.WriteLine("Author: {0}", plugin.author);
                 Console.WriteLine("Description: {0}", plugin.descriptor);
                 Form _thisForm = plugin.view;
-                _thisForm.Show();
+                // Load this.
+                Application.Run(_thisForm);
+
+                // Come back for the loop.
                 Console.WriteLine("Plugin Loaded Successfully.\n\n");                
-                _thisForm.Close();
+                //_thisForm.Close();
             }
             // Exit stuff.
             Console.WriteLine("Press the any key.");
