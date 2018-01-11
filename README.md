@@ -22,7 +22,7 @@ This project is still under development, as such not all features required to ma
 - [ ] ShaderToy is unsupported at this time.
 - [ ] Using the image plugin to play gifs as a desktop wallpaper is unoptimised.
 - [ ] Project is in an unoptimised state.
-- [ ] Project does not current include an installer.
+- [ ] Project does not currently include an installer.
 
 
 ## Guide for developing plugins
